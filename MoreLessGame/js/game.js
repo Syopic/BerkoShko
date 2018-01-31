@@ -1,6 +1,6 @@
 var prNum, tempOut;
-prNum = Math.floor((Math.random() * 10) + 1);
-console.log(prNum);
+prNum = Math.floor((Math.random() * 100) + 1);
+console.log("Загадане число:"+prNum);
 
 
 function f1(){
@@ -13,10 +13,10 @@ function f1(){
 		out.innerHTML = 'Ви вгадали!';
 	}
 	else if (num > prNum){
-		out.innerHTML = 'Ви ввели число більше, ніж потрібно';
+		out.innerHTML = 'ща мамікс купляє';
 	}
 	else {
-		out.innerHTML = 'Ви ввели число менше, ніж потрібно';
+		out.innerHTML = 'ті шо маікса не любиш?';
 	}
 
 }
