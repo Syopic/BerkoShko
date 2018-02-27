@@ -18,6 +18,6 @@ cc.Class({
 
     update: function (dt) {
         this.node.x = this.node.x + this.speed;
-        console.log(this.node.x);
+       // this.node.rotation =  this.node.rotation + this.speed;
     },
 });
