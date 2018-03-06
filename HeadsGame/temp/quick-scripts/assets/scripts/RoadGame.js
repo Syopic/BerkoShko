@@ -1,3 +1,9 @@
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/scripts/RoadGame.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, 'abe648JMjhHYZ7D0x2YQTK+', 'RoadGame', __filename);
+// scripts/RoadGame.js
+
+'use strict';
+
 cc.Class({
     extends: cc.Component,
 
@@ -82,11 +88,11 @@ cc.Class({
         femaleOhSound: {
             default: null,
             type: cc.AudioSource
-        },
+        }
     },
 
     // запускається на початку програми
-    onLoad: function () {
+    onLoad: function onLoad() {
         // додаємо рекцію всіх голів га клік мишки
         this.head1.on('mousedown', function (event) {
             this.dropHead(event.currentTarget);
@@ -106,7 +112,7 @@ cc.Class({
     },
 
     // функція повертає все на початок
-    startGame: function() {
+    startGame: function startGame() {
         // голови вниз
         this.head1.y = 60;
         this.head2.y = 60;
@@ -114,7 +120,7 @@ cc.Class({
         this.head4.y = 60;
 
         // рахунок в 0
-        this.score  = 0;
+        this.score = 0;
         this.scoreLabel.string = 0;
         // швидкість - початкова
         this.speed = 2;
@@ -133,7 +139,7 @@ cc.Class({
     },
 
     // викликається 30 разів в секунду  
-    update: function (dt) {
+    update: function update(dt) {
         // якщо гра йде
         if (this.isPlay == true) {
             // беремо випадкове число від 1 до 4
@@ -146,7 +152,7 @@ cc.Class({
     },
 
     // функція рухання голови
-    moveHead: function (head) {
+    moveHead: function moveHead(head) {
         // рухаємо по осі абсцис угору на величину speed
         head.y = head.y + this.speed;
         // якщо ми досягли краю
@@ -157,13 +163,13 @@ cc.Class({
     },
 
     // функція рухання голови
-    dropHead: function (head) {
+    dropHead: function dropHead(head) {
         // якщо гра йде
         if (this.isPlay == true) {
             // рухаємо по осі абсцис угору на величину speed
             head.y = 60;
             // збільшуємо рахунок на 1
-            this.score ++;
+            this.score++;
             // і показуємо у тестовій мітці
             this.scoreLabel.string = this.score;
             // звук удару
@@ -174,7 +180,7 @@ cc.Class({
     },
 
     // функція програшу
-    gameEnd: function (head) {
+    gameEnd: function gameEnd(head) {
         // опускаємо прапорець ходу гри
         this.isPlay = false;
         // показуємо кнопку і заставку Game Over
@@ -189,3 +195,17 @@ cc.Class({
         this.menuMusic.play();
     }
 });
+
+cc._RF.pop();
+        }
+        if (CC_EDITOR) {
+            __define(__module.exports, __require, __module);
+        }
+        else {
+            cc.registerModuleFunc(__filename, function () {
+                __define(__module.exports, __require, __module);
+            });
+        }
+        })();
+        //# sourceMappingURL=RoadGame.js.map
+        

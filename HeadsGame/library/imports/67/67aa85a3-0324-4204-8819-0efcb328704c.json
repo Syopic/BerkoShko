@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nastya",
+    "texture": "766b03f4-604a-4bd7-bfc1-e605b4de3c1a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      124,
+      125
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      124,
+      125
+    ]
+  }
+}
