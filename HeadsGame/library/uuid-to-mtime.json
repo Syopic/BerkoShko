@@ -220,14 +220,9 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "0b5fdce7-9854-495a-8a0d-1f699bc4070a": {
-    "asset": 1520349810603,
-    "meta": 1520349810659,
+    "asset": 1520352774059,
+    "meta": 1520352774073,
     "relativePath": "scenes\\lesson2.fire"
-  },
-  "e91b3253-af94-40d2-a6c1-20bd01fbcddf": {
-    "asset": 1519750988305,
-    "meta": 1519750988306,
-    "relativePath": "scripts\\textures"
   },
   "4c26b03d-2d67-4eee-aa89-1e71d9159324": {
     "asset": 1519747956648,
@@ -257,87 +252,87 @@
   "580313b9-11ec-4b30-bc5c-95dd7da7e3c7": {
     "asset": 1519750988301,
     "meta": 1519810940734,
-    "relativePath": "scripts\\textures\\anton.png"
+    "relativePath": "textures\\anton.png"
   },
   "6e56ffcd-5c08-46c7-9d2a-93d3495abe5e": {
     "asset": 1519750988305,
     "meta": 1519810940738,
-    "relativePath": "scripts\\textures\\andrij.png"
+    "relativePath": "textures\\andrij.png"
   },
   "740e74e5-416e-4dcd-8511-e2f021a80d1d": {
     "asset": 1519750988289,
     "meta": 1519810940750,
-    "relativePath": "scripts\\textures\\body1.png"
+    "relativePath": "textures\\body1.png"
   },
   "7c3bd2c3-23ef-46d6-834c-b31cf5874142": {
     "asset": 1519750988285,
     "meta": 1519810940763,
-    "relativePath": "scripts\\textures\\body2.png"
+    "relativePath": "textures\\body2.png"
   },
   "c47004bb-3d5f-49e7-838e-c62ee8922fd3": {
     "asset": 1519750988280,
     "meta": 1519810940773,
-    "relativePath": "scripts\\textures\\fedij.png"
+    "relativePath": "textures\\fedij.png"
   },
   "ded53251-6ec1-4dfd-a108-2a408c251f99": {
     "asset": 1519750988296,
     "meta": 1519810940777,
-    "relativePath": "scripts\\textures\\bg.jpg"
+    "relativePath": "textures\\bg.jpg"
   },
   "7de278c3-7121-4588-bcf7-2f472b326d71": {
     "asset": 1519750988275,
     "meta": 1519810940784,
-    "relativePath": "scripts\\textures\\haniye.png"
+    "relativePath": "textures\\haniye.png"
   },
   "ca79290c-67b6-4ac8-bfc3-d8540b1da406": {
     "asset": 1519750988264,
     "meta": 1519810940794,
-    "relativePath": "scripts\\textures\\klym.png"
+    "relativePath": "textures\\klym.png"
   },
   "30433d40-5e7b-4c23-a343-b8ba547dd14f": {
     "asset": 1519750988259,
     "meta": 1519810940803,
-    "relativePath": "scripts\\textures\\maryna.png"
+    "relativePath": "textures\\maryna.png"
   },
   "62892221-b142-4692-8850-27eb5efa43aa": {
     "asset": 1519750988270,
     "meta": 1519810940808,
-    "relativePath": "scripts\\textures\\ivanka.png"
+    "relativePath": "textures\\ivanka.png"
   },
   "d1dbc444-e934-41b7-b490-71a149f4bbe0": {
     "asset": 1519750988255,
     "meta": 1519810940814,
-    "relativePath": "scripts\\textures\\masha.png"
+    "relativePath": "textures\\masha.png"
   },
   "e6f59719-12e9-4c59-999e-6da1d1ca539c": {
     "asset": 1519750988251,
     "meta": 1519810940819,
-    "relativePath": "scripts\\textures\\max.png"
+    "relativePath": "textures\\max.png"
   },
   "766b03f4-604a-4bd7-bfc1-e605b4de3c1a": {
     "asset": 1519750988247,
     "meta": 1519810940823,
-    "relativePath": "scripts\\textures\\nastya.png"
+    "relativePath": "textures\\nastya.png"
   },
   "cd5f635a-bd2c-4829-ba2b-fa7874aa387c": {
     "asset": 1519750988243,
     "meta": 1519810940830,
-    "relativePath": "scripts\\textures\\sashko.png"
+    "relativePath": "textures\\sashko.png"
   },
   "ab6dc200-5ea2-4468-95b1-7d6ee1f3fa64": {
     "asset": 1519750988239,
     "meta": 1519810940835,
-    "relativePath": "scripts\\textures\\syo.png"
+    "relativePath": "textures\\syo.png"
   },
   "d97270b3-42bc-410d-b743-f0bb62983a42": {
     "asset": 1519750988235,
     "meta": 1519810940841,
-    "relativePath": "scripts\\textures\\toma.png"
+    "relativePath": "textures\\toma.png"
   },
   "cb360742-c920-47a0-9a5a-894649089a7c": {
     "asset": 1519750988229,
     "meta": 1519810940856,
-    "relativePath": "scripts\\textures\\ulya.png"
+    "relativePath": "textures\\ulya.png"
   },
   "c1e3f601-e47b-4032-a61e-1c12c9aeff26": {
     "asset": 1520345706297,
@@ -425,8 +420,18 @@
     "relativePath": "sounds\\sfx\\male_oh.mp3"
   },
   "abe64f09-3238-4761-9ec3-d31d984132be": {
-    "asset": 1520350804877,
-    "meta": 1520350806831,
+    "asset": 1520351917704,
+    "meta": 1520351919107,
     "relativePath": "scripts\\RoadGame.js"
+  },
+  "abb2ba18-d1df-46d9-b0ab-60f6d4a0e07c": {
+    "asset": 1520352062106,
+    "meta": 1520352062108,
+    "relativePath": "animations"
+  },
+  "ac9810ef-b0dc-4dfb-ad15-4d58427e1fbc": {
+    "asset": 1520353089150,
+    "meta": 1520353089159,
+    "relativePath": "animations\\headAnimation.anim"
   }
 }

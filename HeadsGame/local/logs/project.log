@@ -87,3 +87,6 @@
     at Object.<anonymous> (D:\Workspace\Web\BerkoShko\HeadsGame\temp\quick-scripts\assets\scripts\RoadGame.js:209:11)
     at Module._compile (module.js:556:32)
     at Object.Module._extensions..js (module.js:565:10)
+2018-03-06T15:57:48.429Z - warn: No needs to indicate the 'cc.Boolean' attribute for "RoadGame.isPlay", which its default value is type of Boolean.
+2018-03-06T16:02:52.717Z - warn: Can not select this node in Animation Edit Mode
+2018-03-06T16:04:47.996Z - warn: Can not select this node in Animation Edit Mode

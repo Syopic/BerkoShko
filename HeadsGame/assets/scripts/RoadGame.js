@@ -4,8 +4,9 @@ cc.Class({
     properties: {
         // прапорець - якщо true - граємл - інакше - пауза
         isPlay: {
-            type: cc.Boolean
+            default: false
         },
+        
         // швидкість ругу голів
         speed: {
             default: 2,
