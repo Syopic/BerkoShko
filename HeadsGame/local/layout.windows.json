@@ -5,7 +5,7 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 1912,
+      "x": -8,
       "y": -8,
       "width": 1936,
       "height": 1066,
@@ -78,11 +78,11 @@
       "panels": [
         "console",
         "inspector",
+        "node-library",
         "hierarchy",
         "assets",
         "scene",
-        "timeline",
-        "node-library"
+        "timeline"
       ]
     }
   },
