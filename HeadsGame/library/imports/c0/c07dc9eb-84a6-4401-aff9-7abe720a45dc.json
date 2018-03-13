@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "holes",
+    "texture": "46e3e0a9-ac97-463b-a37f-042446b2d5be",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      668,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      668,
+      48
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rightLeg",
+    "texture": "fd09af26-7283-43a0-8c37-7d7a9495182f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      62,
+      109
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      62,
+      109
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "dancerAnimation",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.67,
+  "sample": 60,
+  "speed": 2,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "rightLeg": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                21.2,
+                -71.2
+              ]
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": [
+                49.7,
+                -61.8
+              ]
+            }
+          ],
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -8
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": -50
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
