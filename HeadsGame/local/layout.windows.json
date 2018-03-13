@@ -78,11 +78,11 @@
       "panels": [
         "console",
         "inspector",
+        "node-library",
         "hierarchy",
         "assets",
         "scene",
-        "timeline",
-        "node-library"
+        "timeline"
       ]
     }
   },
