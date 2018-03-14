@@ -17,6 +17,11 @@ cc.Class({
             default: 0,
             type: cc.Integer
         },
+        // максимальний рахунок
+        maxScore: {
+            default: 0,
+            type: cc.Integer
+        },
         // голови
         head1: {
             default: null,
@@ -34,8 +39,13 @@ cc.Class({
             default: null,
             type: cc.Node
         },
-        // тектова мітка ждя рахунку
+        // тектова мітка для рахунку
         scoreLabel: {
+            default: null,
+            type: cc.Label
+        },
+        // тектова мітка для максимального рахунку
+        maxScoreLabel: {
             default: null,
             type: cc.Label
         },
@@ -181,7 +191,10 @@ cc.Class({
         // показуємо кнопку і заставку Game Over
         this.startButton.active = true;
         this.gameover.active = true;
-
+        if (this.score > this.maxScore) {
+            this.maxScore=this.score;
+            this.maxScoreLabel.string = this.maxScore;
+        }
         // звук програшу    
         this.gameOverSound.play();
         // зупиняємо музику у грі
