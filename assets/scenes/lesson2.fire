@@ -2786,17 +2786,17 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 128
+      "width": 114.2,
+      "height": 135.2
     },
-    "_rotationX": 0,
-    "_rotationY": 0,
-    "_scaleX": -1,
+    "_rotationX": -10,
+    "_rotationY": -10,
+    "_scaleX": -0.95,
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 11.7,
-      "y": 118
+      "x": 13.5,
+      "y": 114.7
     },
     "_skewX": 0,
     "_skewY": 0,
