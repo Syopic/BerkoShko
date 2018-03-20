@@ -112,6 +112,19 @@ cc.Class({
             this.dropHead(event.currentTarget);
         }.bind(this));
 
+        this.head1.on(cc.Node.EventType.TOUCH_END, function (event) {
+            this.dropHead(event.currentTarget);
+        }.bind(this));
+        this.head2.on(cc.Node.EventType.TOUCH_END, function (event) {
+            this.dropHead(event.currentTarget);
+        }.bind(this));
+        this.head3.on(cc.Node.EventType.TOUCH_END, function (event) {
+            this.dropHead(event.currentTarget);
+        }.bind(this));
+        this.head4.on(cc.Node.EventType.TOUCH_END, function (event) {
+            this.dropHead(event.currentTarget);
+        }.bind(this));
+
         // починаємо грати фонову музику в меню
         this.menuMusic.play();
     },
